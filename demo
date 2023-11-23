@@ -1,0 +1,7 @@
+cd teams
+export CLASSPATH="/home/21208468/Documents/SYSTEMES_MUTLI_AGENTS/TP/TP1/TeamBots/src:."
+export CLASSPATH="${CLASSPATH}:/home/21208468/Documents/SYSTEMES_MUTLI_AGENTS/TP/TP1/TeamBots/lib/collections.jar"
+javac *.java
+java TBSim.TBSim robocup.dsc 511 300
+
+
